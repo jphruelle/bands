@@ -1,0 +1,111 @@
+{
+	"data": [{
+		"id": "1",
+		"type": "bands",
+		"links": {
+			"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/1"
+		},
+		"attributes": {
+			"name": "Pearl Jam",
+			"description": "Pearl Jam is an American rock band, formed in Seattle, Washington in 1990."
+		},
+		"relationships": {
+			"songs": {
+				"links": {
+					"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/1/relationships/songs",
+					"related": "https://my-json-server.typicode.com/jphruelle/bands/bands/1/songs"
+				}
+			}
+		}
+	}, {
+		"id": "2",
+		"type": "bands",
+		"links": {
+			"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/2"
+		},
+		"attributes": {
+			"name": "Led Zeppelin",
+			"description": null
+		},
+		"relationships": {
+			"songs": {
+				"links": {
+					"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/2/relationships/songs",
+					"related": "https://my-json-server.typicode.com/jphruelle/bands/bands/2/songs"
+				}
+			}
+		}
+	}, {
+		"id": "3",
+		"type": "bands",
+		"links": {
+			"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/3"
+		},
+		"attributes": {
+			"name": "Kaya Project",
+			"description": null
+		},
+		"relationships": {
+			"songs": {
+				"links": {
+					"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/3/relationships/songs",
+					"related": "https://my-json-server.typicode.com/jphruelle/bands/bands/3/songs"
+				}
+			}
+		}
+	}, {
+		"id": "4",
+		"type": "bands",
+		"links": {
+			"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/4"
+		},
+		"attributes": {
+			"name": "Foo Fighters",
+			"description": null
+		},
+		"relationships": {
+			"songs": {
+				"links": {
+					"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/4/relationships/songs",
+					"related": "https://my-json-server.typicode.com/jphruelle/bands/bands/4/songs"
+				}
+			}
+		}
+	}, {
+		"id": "5",
+		"type": "bands",
+		"links": {
+			"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/5"
+		},
+		"attributes": {
+			"name": "Radiohead",
+			"description": null
+		},
+		"relationships": {
+			"songs": {
+				"links": {
+					"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/5/relationships/songs",
+					"related": "https://my-json-server.typicode.com/jphruelle/bands/bands/5/songs"
+				}
+			}
+		}
+	}, {
+		"id": "6",
+		"type": "bands",
+		"links": {
+			"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/6"
+		},
+		"attributes": {
+			"name": "Red Hot Chili Peppers",
+			"description": null
+		},
+		"relationships": {
+			"songs": {
+				"links": {
+					"self": "https://my-json-server.typicode.com/jphruelle/bands/bands/6/relationships/songs",
+					"related": "https://my-json-server.typicode.com/jphruelle/bands/bands/6/songs"
+				}
+			}
+		}
+	}]
+}
